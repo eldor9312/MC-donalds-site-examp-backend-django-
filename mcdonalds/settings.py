@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'd61!snklu^x(t=5omb#!atvs+bgekmy#b!v7iicx$47m5t_gmd'
+SECRET_KEY = '#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -121,8 +121,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
-CELERY_BROKER_URL = 'redis://:jBUz6Yg6h8v8bxW1hIYDFo6PgUr6l4pR@redis-14569.c281.us-east-1-2.ec2.cloud.redislabs.com:14569'
-CELERY_RESULT_BACKEND = 'redis://:jBUz6Yg6h8v8bxW1hIYDFo6PgUr6l4pR@redis-14569.c281.us-east-1-2.ec2.cloud.redislabs.com:14569'
+CELERY_BROKER_URL = '###'
+CELERY_RESULT_BACKEND = '###'
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
